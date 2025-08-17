@@ -63,3 +63,20 @@ const findFactorial=(input) => {
     return Array.from({length:input},(_,i)=>i+1).reduce((acc,curr)=>acc*curr,1)
 }
 
+// =========  problem no 10  ==========
+
+const pingPong=() => {
+    Array.from({length:20},(_,i)=>i+1).forEach(n=>{
+       if (n%3===0 && n%5===0) {
+        console.log('PingPong');
+        return
+       }else if (n%3===0) {
+        console.log('Ping')
+        return
+       }else if (n%5===0) {
+        console.log('Pong');
+        return
+       }
+       console.log(n);
+    })
+}
