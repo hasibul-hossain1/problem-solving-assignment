@@ -30,5 +30,12 @@
 // }
 
 
+// =========  problem no 5  ==========
+
+const removeDuplicate=(arr)=>{
+    return [...new Set(arr)]
+}
+
+
 
 
