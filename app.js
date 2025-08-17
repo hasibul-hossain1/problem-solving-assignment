@@ -57,4 +57,9 @@ const capitalizeFirstWord=(string) => {
     return string.split(' ').map((word)=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ')
 }
 
+// =========  problem no 9  ==========
+
+const findFactorial=(input) => {
+    return Array.from({length:input},(_,i)=>i+1).reduce((acc,curr)=>acc*curr,1)
+}
 
