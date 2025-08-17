@@ -35,13 +35,20 @@ const removeDuplicate=(arr)=>{
     return [...new Set(arr)]
 }
 
-// =========  problem no 5  ==========
+// =========  problem no 6  ==========
 
 const sumAll=(arr)=>{
     return arr.reduce((acc,curr)=>acc+curr,0)
 }
 
 
+// =========  problem no 7  ==========
 
+const allEvenNumber=(arr)=>{
+    return arr.reduce((acc,curr)=>{
+        !!(curr%2===0) && acc.push(curr)
+        return acc
+    },[])
+}
 
 
