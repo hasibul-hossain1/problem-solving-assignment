@@ -1,2 +1,3 @@
-  let vowel='aeiou'
-        !!vowel.includes(curr.toLowerCase()) && acc++
+const isPalindrome=(string)=>{
+//     return string===string.split('').reverse().join('')
+// }

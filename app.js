@@ -19,9 +19,16 @@
 
 // =========  problem no 3  ==========
 
-const isPalindrome=(string)=>{
-    return string===string.split('').reverse().join('')
-}
+// const isPalindrome=(string)=>{
+//     return string===string.split('').reverse().join('')
+// }
+
+// =========  problem no 4  ==========
+
+// const maxNumber=(arr)=>{
+//     return Math.max(...arr)
+// }
+
 
 
 
